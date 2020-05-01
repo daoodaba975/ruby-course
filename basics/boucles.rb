@@ -10,6 +10,8 @@ users.each do |user|
     puts user
 end
 
+
+
 # Les boucles sur les tableaux
 10.times do
     puts "Hello"
@@ -20,21 +22,4 @@ end
     i.times do
         puts "World"
     end
-end
-
-jours_ouvres = [
-    "lundi","mardi","mercredi","jeudi","vendredi"
-  ]
-  
-  i=5
-  
-jours_ouvres.each do |jour|
-    if jour == "vendredi" 
-      puts jour + " : Bon weekend !"
-    elsif jour == "lundi"
-      puts jour + " : Bon courage !"
-    else
-      puts jour + " : Weekend dans #{i} jours !"
-    end
-    i-=1
 end

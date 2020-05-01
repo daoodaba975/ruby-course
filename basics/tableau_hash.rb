@@ -4,9 +4,6 @@
 # syntaxe
 mes_escales_tour_du_monde = [ "Paris", "Toronto", "NYC", "Rio", "Sydney", "Hong-Kong", "Berlin" ]
 
-# On peut appliquer des méthodes à une variable contenant un tableau de la façon suivante : 
-#nom_du_tableau.nom_de_la_methode
-
 # La méthode size permet de connaître le nombre d'éléments d'un tableau.
 mes_escales_tour_du_monde.size
 
@@ -21,6 +18,7 @@ mes_escales_tour_du_monde << "Londres"
 
 # Pour modifier l'élément d'un tableau, on lui affecte la valeur souhaitée avec le signe =
 mes_escales_tour_du_monde[6] = "Barcelone"
+
 
 
 #Les tables de hashage
